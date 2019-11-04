@@ -30,7 +30,7 @@ You're reading it!
 - after this for conformation i am ploting the points again on images using corners which i got from previous step
 - I then used the output objpoints and imgpoints to compute the camera calibration and distortion coefficients using the cv2.calibrateCamera() function.
 
-![Calibration]()
+![Calibration](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/undistort_calibration.png?raw=true)
 ---
 
 ## Advance Pipeline
@@ -68,7 +68,7 @@ You're reading it!
 - Using Histogram i found the peak Points which is starting points of the lane
 - then i used Sliding window concept on bird eye view image and applied second order polynomial
 
-![Warped Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Window_Op_Images/test3.jpg?raw=true)
+![Warped Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Warped_Op_Images/test3.jpg?raw=true)
 
 ##### 5 . Computation of lane curvature and deviation from lane center
  - Calculated the curvature from the below equation
