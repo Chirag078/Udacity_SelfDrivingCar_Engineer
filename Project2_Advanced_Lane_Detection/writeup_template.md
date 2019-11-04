@@ -37,7 +37,7 @@ You're reading it!
 ## Advance Pipeline
 ##### 1 . Distortion removal on images
 - Removed Distortion to the test image using camera calibration and distortion coefficients and  cv2.undistort() function.
-- ![https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test1.jpg?raw=true](Undistorted Image)
+- ![Undistorted Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test1.jpg?raw=true)
 
 ##### 2 . Application of color and gradient thresholds to focus on lane lines 
 - I used a combination of color and gradient thresholds to generate a binary image
