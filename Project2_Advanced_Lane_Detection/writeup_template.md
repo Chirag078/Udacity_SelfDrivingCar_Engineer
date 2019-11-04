@@ -30,7 +30,7 @@ You're reading it!
 - after this for conformation i am ploting the points again on images using corners which i got from previous step
 - I then used the output objpoints and imgpoints to compute the camera calibration and distortion coefficients using the cv2.calibrateCamera() function.
 
-![Calibration](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/undistort_calibration.png?raw=true)
+![Calibration](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/calib_image.JPG?raw=true)
 ---
 
 ## Advance Pipeline
