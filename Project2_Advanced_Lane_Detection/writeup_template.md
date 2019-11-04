@@ -37,14 +37,14 @@ You're reading it!
 ## Advance Pipeline
 ##### 1 . Distortion removal on images
 - Removed Distortion to the test image using camera calibration and distortion coefficients and  cv2.undistort() function.
-- ![Undistorted Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test1.jpg?raw=true)
+![Undistorted Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test3.jpg?raw=true)
 
 ##### 2 . Application of color and gradient thresholds to focus on lane lines 
 - I used a combination of color and gradient thresholds to generate a binary image
     Gradiant & Color Threshold :
     - Absolute Sobel in x direction 
     - R and S Chennal as color Gradiant
-    
+![Undistorted Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test1.jpg?raw=true)
 
 ##### 3 . Production of a bird’s eye view image via perspective transform
  - I verified that my perspective transform was working as expected by drawing the src and dst points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
