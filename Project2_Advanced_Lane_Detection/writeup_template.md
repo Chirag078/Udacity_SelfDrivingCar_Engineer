@@ -29,21 +29,22 @@ You're reading it!
 - After that i am searching for the corners in all chess board images and if corner is found then i am appending objp into objectpoints and corners into imagepoints
 - after this for conformation i am ploting the points again on images using corners which i got from previous step
 - I then used the output objpoints and imgpoints to compute the camera calibration and distortion coefficients using the cv2.calibrateCamera() function.
-- 
-##### ----------------------------------------- Image panding
 
+![Calibration]()
 ---
 
 ## Advance Pipeline
 ##### 1 . Distortion removal on images
 - Removed Distortion to the test image using camera calibration and distortion coefficients and  cv2.undistort() function.
+
 ![Undistorted Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Undistorted_Op_Images/test3.jpg?raw=true)
 
 ##### 2 . Application of color and gradient thresholds to focus on lane lines 
 - I used a combination of color and gradient thresholds to generate a binary image
-    Gradiant & Color Threshold :
+    Gradient & Color Threshold :
     - Absolute Sobel in x direction 
-    - R and S Chennal as color Gradiant
+    - R and S Channel as color Gradient
+
 ![Threshold Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Threshold_Op_Images/test3.jpg?raw=true)
 
 ##### 3 . Production of a bird’s eye view image via perspective transform
@@ -61,17 +62,20 @@ You're reading it!
         [960, 720],
         [960, 0]])
 
-![Warped Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Warped_Op_Images/test3.jpg?raw=true		)
+![Warped Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Warped_Op_Images/test3.jpg?raw=true)
 		
 ##### 4 . Fitting of second degree polynomials to identify left and right lines composing the lane
 - Using Histogram i found the peak Points which is starting points of the lane
 - then i used Sliding window concept on bird eye view image and applied second order polynomial
+
 ![Warped Image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Window_Op_Images/test3.jpg?raw=true)
 
 ##### 5 . Computation of lane curvature and deviation from lane center
  - Calculated the curvature from the below equation
+ 
 ![R_Curve](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/color_fit_lines.jpg?raw=true) 
 
 ##### 6. Warping and drawing of lane boundaries on image as well as lane curvature information
  - here it my out put image with Warping and drawing of lane boundaries on image as well as lane curvature information
+ 
 ![Final_Output](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/Final_Op_Images/test3.jpg?raw=true) 
