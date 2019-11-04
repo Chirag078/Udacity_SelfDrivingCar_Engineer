@@ -73,7 +73,7 @@ You're reading it!
 ##### 5 . Computation of lane curvature and deviation from lane center
  - Calculated the curvature from the below equation
  
-![R_Curve](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/color_fit_lines.jpg?raw=true) 
+![R_Curve](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project2_Advanced_Lane_Detection/examples/Redius.JPG?raw=true) 
 
 ##### 6. Warping and drawing of lane boundaries on image as well as lane curvature information
  - here it my out put image with Warping and drawing of lane boundaries on image as well as lane curvature information
