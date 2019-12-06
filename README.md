@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Udacity : Self Driving Car Engineer 
+=======
+# Udacity : Self Driving Car Engineer 
+>>>>>>> 4f2fdec2fead13865cfd211968af275e95c9d55d
 
 ![udacity](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Udacity_logo.png?raw=true)
 
