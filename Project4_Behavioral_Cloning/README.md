@@ -21,6 +21,8 @@ The goals / steps of this project are the following:
 * Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
 * Summarize the results with a written report
 
+![image](https://github.com/Chirag078/Udacity_SelfDrivingCar_Engineer/blob/master/Project4_Behavioral_Cloning/examples/result.gif?raw=true)
+
 ### Dependencies
 This lab requires:
 
